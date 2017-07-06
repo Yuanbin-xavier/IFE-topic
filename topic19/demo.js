@@ -208,7 +208,7 @@ function insertionSort(queue) {
       } else {
         eles[j+1].style.height = eles[j].style.height;
         eles[j+1].offsetHeight = eles[j].offsetHeight;
-        j--;
+          j--;
       }
     }
   }, delay);
